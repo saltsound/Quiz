@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">LTQuiz</string>
+    <string name="Intro">Quick quiz about Lithuania</string>
+    <string name="Question1">Is Lithuania near the sea?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="Question2">Question 2. Who is president of Lithuania?</string>
+    <string name="Dalia">Dalia Grybauskaite</string>
+    <string name="King">Lithuania has a king</string>
+    <string name="Question3"> Question 3. In which continent Lithuania is?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="Question4"> Question 4. For what Lithuania is known in the World? 2 correct answers </string>
+    <string name="Basketball">Basketball</string>
+    <string name="beer">Beer</string>
+    <string name="cars">Electric cars</string>
+    <string name="Results">Results</string>
+    <string name="Your_name">Your name:</string>
+    <string name="hint">Enter your name</string>
+    <string name="hint_Q3">Write it here </string>
+</resources>

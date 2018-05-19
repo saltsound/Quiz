@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lt">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="@string/Intro"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/name_field"
+            style="@style/CustomEditTextView"
+            android:hint="@string/hint"
+            />
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="@string/Question1" />
+
+
+        <RadioButton
+            android:id="@+id/questOneYes"
+            style = "@style/CustomRadioButton"
+            android:text="@string/yes"/>
+
+        <RadioButton
+            android:id="@+id/questOneNo"
+            style = "@style/CustomRadioButton"
+            android:text="@string/no" />
+
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/CustomTextView"
+                android:text="@string/Question2"/>
+
+            <RadioButton
+                android:id="@+id/questTwoDalia"
+                style = "@style/CustomRadioButton"
+                android:text="@string/Dalia" />
+
+            <RadioButton
+                android:id="@+id/questTwoKing"
+                style = "@style/CustomRadioButton"
+                android:text="@string/King"
+                />
+            <TextView
+                style="@style/CustomTextView"
+                android:text="@string/Question3"
+                />
+
+            <EditText
+                android:id="@+id/enterAnswer"
+                style="@style/CustomEditTextView"
+                android:hint="@string/hint_Q3"
+                android:inputType="text"/>
+
+            <TextView
+                style="@style/CustomTextView"
+                android:text="@string/Question4" />
+
+            <CheckBox
+                android:id="@+id/questFourBasketball"
+                style = "@style/CustomRadioButton"
+                android:text="@string/Basketball"/>
+            <CheckBox
+                android:id="@+id/questFourBeer"
+                style = "@style/CustomRadioButton"
+                android:text="@string/beer" />
+            <CheckBox
+                android:id="@+id/questFourCars"
+                style = "@style/CustomRadioButton"
+                android:text="@string/cars" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="submitAnswers"
+                android:padding="8dp"
+                android:text="@string/Results" />
+
+        </RadioGroup>
+    </RadioGroup>
+
+
+</ScrollView>
